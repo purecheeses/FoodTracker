@@ -13,6 +13,7 @@
 		C74F2F1420CA749D000D6580 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C74F2F1320CA749D000D6580 /* Assets.xcassets */; };
 		C74F2F1720CA749D000D6580 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C74F2F1520CA749D000D6580 /* LaunchScreen.storyboard */; };
 		C74F2F2220CA749E000D6580 /* FoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74F2F2120CA749E000D6580 /* FoodTrackerTests.swift */; };
+		C78893A220D39F94005F959C /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78893A120D39F94005F959C /* Meal.swift */; };
 		C7B3EBA520D266210098F060 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B3EBA420D266210098F060 /* RatingControl.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,7 @@
 		C74F2F1D20CA749E000D6580 /* FoodTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C74F2F2120CA749E000D6580 /* FoodTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerTests.swift; sourceTree = "<group>"; };
 		C74F2F2320CA749E000D6580 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C78893A120D39F94005F959C /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		C7B3EBA420D266210098F060 /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,6 +83,7 @@
 			children = (
 				C74F2F0C20CA749D000D6580 /* AppDelegate.swift */,
 				C74F2F0E20CA749D000D6580 /* ViewController.swift */,
+				C78893A120D39F94005F959C /* Meal.swift */,
 				C7B3EBA420D266210098F060 /* RatingControl.swift */,
 				C74F2F1020CA749D000D6580 /* Main.storyboard */,
 				C74F2F1320CA749D000D6580 /* Assets.xcassets */,
@@ -200,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C78893A220D39F94005F959C /* Meal.swift in Sources */,
 				C74F2F0F20CA749D000D6580 /* ViewController.swift in Sources */,
 				C7B3EBA520D266210098F060 /* RatingControl.swift in Sources */,
 				C74F2F0D20CA749D000D6580 /* AppDelegate.swift in Sources */,
