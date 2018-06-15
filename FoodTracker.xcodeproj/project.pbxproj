@@ -14,6 +14,7 @@
 		C74F2F1720CA749D000D6580 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C74F2F1520CA749D000D6580 /* LaunchScreen.storyboard */; };
 		C74F2F2220CA749E000D6580 /* FoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74F2F2120CA749E000D6580 /* FoodTrackerTests.swift */; };
 		C78893A220D39F94005F959C /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78893A120D39F94005F959C /* Meal.swift */; };
+		C78893A420D3C1BC005F959C /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78893A320D3C1BC005F959C /* MealTableViewCell.swift */; };
 		C7B3EBA520D266210098F060 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B3EBA420D266210098F060 /* RatingControl.swift */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,7 @@
 		C74F2F2120CA749E000D6580 /* FoodTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerTests.swift; sourceTree = "<group>"; };
 		C74F2F2320CA749E000D6580 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C78893A120D39F94005F959C /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		C78893A320D3C1BC005F959C /* MealTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
 		C7B3EBA420D266210098F060 /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -89,6 +91,7 @@
 				C74F2F1320CA749D000D6580 /* Assets.xcassets */,
 				C74F2F1520CA749D000D6580 /* LaunchScreen.storyboard */,
 				C74F2F1820CA749D000D6580 /* Info.plist */,
+				C78893A320D3C1BC005F959C /* MealTableViewCell.swift */,
 			);
 			path = FoodTracker;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 				C74F2F0F20CA749D000D6580 /* ViewController.swift in Sources */,
 				C7B3EBA520D266210098F060 /* RatingControl.swift in Sources */,
 				C74F2F0D20CA749D000D6580 /* AppDelegate.swift in Sources */,
+				C78893A420D3C1BC005F959C /* MealTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
