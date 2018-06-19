@@ -16,7 +16,7 @@ class Meal {
     var rating : Int
     
     //Initialization
-    init?(name: String,photo: UIImage? , rating: Int) {
+    init?(name: String, photo: UIImage? , rating: Int) {
         // Initialization should fail if there is no name or if the rating is negative.
 //        if name.isEmpty || rating < 0  {
 //            return nil
@@ -25,7 +25,7 @@ class Meal {
             return nil
         }
         
-        guard (rating>=0 && rating<5) else {
+        guard (rating>=0 && rating<6) else {
             return nil
         }
         
